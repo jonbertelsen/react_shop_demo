@@ -1,0 +1,93 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  height: 100vh;
+}
+
+.header {
+  background-color: cadetblue;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu-item {
+  cursor: pointer;
+  padding: 5px 10px;
+  color: #fff;
+  transition: background 0.3s ease;
+}
+
+.menu-item:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 10px;
+}
+
+.left-section,
+.right-section {
+  padding: 20px;
+}
+
+.left-section {
+  background-color: #f4f4f4;
+}
+
+.right-section {
+  background-color: #ddd;
+}
+
+/* Table styling */
+
+table {
+  border: 1px solid silver;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 10px;
+  border: 1px solid silver;
+}
+
+thead {
+  background-color: cadetblue;
+  color: white;
+}
+
+/* Buttons */
+
+button {
+  padding: 8px;
+}
