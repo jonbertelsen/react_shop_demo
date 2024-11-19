@@ -4,9 +4,8 @@ Denne demo viser brug af:
 
 - html
 - css
-- javascript
+- javascript (map, find, reduce)
 - react
 - components
 - props
 - useState
-- useEffect
